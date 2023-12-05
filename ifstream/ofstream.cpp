@@ -4,6 +4,11 @@
 using namespace std;
 int main(){
   ifstream in("output.txt");
+  string line;
+  while(getline(in,line))
+  {
+  cout<<line<<endl;
+  }
   string name;
   int id;
   cout<<"enter your name:"<<endl;
