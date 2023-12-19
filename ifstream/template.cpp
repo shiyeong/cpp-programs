@@ -29,4 +29,4 @@ float sum(t1 x,t2 y)//x becomes of type t1 and y becomes of type t2
 int main(){
   sum(2,3.5);
   sum(2.3,4);
-}*/
+}
